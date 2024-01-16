@@ -1,7 +1,9 @@
 body
 {
+    overflow-x: hidden;
     background-image: url(smileyzimg/photo_5094099073442622604_x.jpg);
-    filter: brightness();
+    filter: blur();
+    width: 100vh;
 }
 .roleall{
     background-image: url(smileyzimg/photo_5094099073442622604_x.jpg);
