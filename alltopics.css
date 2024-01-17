@@ -1,44 +1,60 @@
 body
 {
     overflow-x: hidden;
-    background-image: url(smileyzimg/photo_5094099073442622604_x.jpg);
-    filter: blur();
-    width: 100vh;
-}
-.roleall{
-    background-image: url(smileyzimg/photo_5094099073442622604_x.jpg);
-    background-position: center;
-}
-.smileyz{
-    background-color: rgb(251, 192, 12);
-    text-decoration: gold;
-    position: relative;
-    text-align: center;
-   
     
 }
-.nigeriawide{
-    margin-top: -17px;
-   margin-left: 1650px; 
-   font-size: 17px;
+.header{
+   
 }
-.fa-instagram{
-    margin-left: -2000px;
+#heemarrhcity{
+    display: flex;
+    justify-content: center;
+    align-items:center;                                                                                                                                                                
 }
-.affordabl{
-margin-top: -80px;
-margin-left: 100px;
+.heemarrh{
+    border: 5px solid black;
+    width: 20%;
+    height: 30vh;
+    display: flex;
+    border-radius: 20%;
+    justify-content: end;
+    align-items: end;
+background-color: gold;
+background-image: radial-gradient(gold, whitesmoke, orange);
+transition: background-color 0.5s color whitesmoke;
+transform: rotate3d(2, 1, 0, 30deg);   
 }
+.heemarrh:hover{
+    background-color: red;
+}
+
+.smileyzabode{
+    border: 5px solid black;
+    width: 20%;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20%;
+    background-color: gold;
+    background-image: radial-gradient(gold, whitesmoke, orange);
+    transition: background-color 0.5s;
+    transform: rotate3d(2, 1, 0, 30deg);   
+}
+
+
 .onlineshop{
-    font-size: 40px;
-    text-align: center;
-    border: 20px;
-    border-radius: 50px;
-    background-color: gold;    
-    border-style: dashed;
-    border-color: gold;
-    position: relative;
-    font-style: oblique;
+   text-align: center;
+   border: 20px solid burlywood;
+   border-style: groove;
+   border-radius: 15px;
+   background-image: radial-gradient(whitesmoke, #146db6, yellow);
+   color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder;
+   font-size: 50px;
+   box-shadow: 10px 15px 0px 0px orange;
+   text-shadow: 0px 2px 5px yellow, 0px -5px 5px red;
+   width: auto;
 }
 .tech{
   
@@ -66,28 +82,12 @@ margin-left: 100px;
 }
 
 .allcontents{
-    background-color: white;
+  background-image: url(smileyzimg/photo_5094099073442622604_x.jpg,);
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur();
 }
-.allbubu{
 
-}
-
-.signup{
-    color: rgb(3, 2, 2);
-}
-.contactusnav{
-    color: rgb(5, 0, 0);
-}
-.nigeriaworldwide{
-    color: rgb(8, 1, 1);
-}
-.smileyzwrd{
-    font-size: 100px;
-    font-style: italic;
-    color: gold;
-    margin-left: 900px;
-    margin-top: -5px;
-}
 .affordablefashion{
     margin-left: 1100px;
     margin-top: -100px;
