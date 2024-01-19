@@ -4,7 +4,8 @@
 body
 {
     overflow-x: hidden;
-    
+    background-image: url(smileyzimg/photo_5094099073442622604_x.jpg);
+    background-position: center;    
 }
 .header{
    
