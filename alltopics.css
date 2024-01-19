@@ -114,11 +114,7 @@ input:focus~ .box #bottom{
 }
 
 
-#heemarrhcity{
-    display: flex;
-    justify-content: center;
-    align-items:center;                                                                                                                                                                
-}
+
 .heemarrh{
     border: 5px solid black;
     width: 20%;
@@ -136,7 +132,7 @@ transform: rotate3d(2, 1, 0, 30deg);
     background-color: red;
 }
 
-.smileyzabode{
+.heemarrhcity{
     border: 5px solid whitesmoke;
     color: hotpink;
     width: 100%;
