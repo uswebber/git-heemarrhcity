@@ -203,7 +203,7 @@ transform: rotate3d(2, 1, 0, 30deg);
  }
 }
 
-@media screen and (min-width: 482px){
+@media screen and (min-width: 481px){
     .container{
        height: 40vh;
        width: 30vw;
