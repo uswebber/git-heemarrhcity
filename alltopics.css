@@ -183,25 +183,6 @@ transform: rotate3d(2, 1, 0, 30deg);
     
 }
 
-.allcontents{
-  background-image: url(smileyzimg/photo_5094099073442622604_x.jpg,);
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: blur();
-}
-
-.affordablefashion{
-    margin-left: 1100px;
-    margin-top: -100px;
-    font-size: 20px; 
-    color: rgb(10, 10, 10);
-}
-.shoppingretail{
-    margin-left: 1100px;
-    margin-top: -28px;
-    color: rgb(242, 141, 9);
-}
-
 @media screen and (max-width: 481px){
     main{
         display: flex;
@@ -218,15 +199,15 @@ transform: rotate3d(2, 1, 0, 30deg);
     position: flex;
     transform: translate(-50%, -50%);
     perspective: 1000px;
-    text-shadow: 0px 2px 5px yellow, 0px -5px 5px red;
+    text-shadow: 0px 2px 5px red, 0px -1px 5px black;
  }
 }
 
 @media screen and (max-width: 481px){
     .box{
-        height: 150px;
-        width: 150px;
-        display: flex;
+        height: 250px;
+        width: 250px;
+        position: absolute;
        transform-style: preserve-3d;
        animation: animate 5s infinite;
     }
@@ -234,17 +215,42 @@ transform: rotate3d(2, 1, 0, 30deg);
     
    @media screen and (max-width: 481px) {
     .card{
-        height: 150px;
-    width: 150px;
+        height: 250px;
+    width: 250px;
     text-align: center;
     padding: 50px 0px;
     color: white;
-    background: black;
+    background: linear-gradient(brown, whitesmoke, purple);
     border: 2px solid white;
-    font-size: 22px;
+    font-size: 20px;
     box-sizing: border-box;
     position: absolute;
     transition: all 1s;
-    display: flex;
     }
+    #front{
+        transform: translateZ(125px);
+    }
+    #back{
+        transform: translateZ(-125px);
+    }
+
+    #left{
+        right: 125px;
+        transform: rotateY(-90deg);
+    }
+    #right{
+        left: 125px;
+        transform: rotateY(90deg);
+    }
+
+    #top{
+        bottom: 125px;
+        transform: rotateX(90deg);
+    }
+    #bottom{
+        top: 125px;
+        transform: rotateX(-90deg);
+    }
+
    }
+   
